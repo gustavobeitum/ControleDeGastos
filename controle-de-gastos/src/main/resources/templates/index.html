@@ -57,7 +57,7 @@
                         <td th:text="${lancamento.tipo.name()}"></td>
                         <td>
                             <button class="delete-btn"
-                                    hx-delete="@{/lancamentos/{id}(id=${lancamento.id})}"
+                                    th:attr="hx-delete=@{/lancamentos/{id}(id=${lancamento.id})}"
                                     hx-target="#lista-lancamentos"
                                     hx-swap="outerHTML"
                                     hx-confirm="Tem certeza que deseja excluir?">
