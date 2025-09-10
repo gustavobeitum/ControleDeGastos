@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ControleDeGastosApplication",
+            "request": "launch",
+            "mainClass": "br.com.controledegastos.ControleDeGastosApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-ControleDeGastosApplication<controle-de-gastos>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
